@@ -1,4 +1,6 @@
 # flake8: noqa
+from . import core
+from .core import *
 from . import creation_routines
 from .creation_routines import *
 from . import indexing_routines
